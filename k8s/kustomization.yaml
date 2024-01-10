@@ -5,6 +5,7 @@ resources:
 - service.yaml
 - ingress.yaml
 namespace: hello-gitops
+
 images:
 - name: hello-gitops
   newName: bohdanvey/hello-gitops
